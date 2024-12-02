@@ -1,4 +1,4 @@
-### study-of-basic-gates
+![Screenshot 2024-12-02 222130](https://github.com/user-attachments/assets/4660b3c8-91d3-47f2-996d-50bacc3c413e)### study-of-basic-gates
 
 **AIM:** 
 
@@ -66,14 +66,30 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
- 
-**Logic symbol & Truthtable**
+ Developed by: TAMILSELVI.I RegisterNumber: 24900261
+``` 
+ module ex2(a,b,c,d,e,f,e,f,g,h);
+input a,b;
+output c,d,e,f,g,h;
+assign c = a & b;
+assign d = a | b;
+assign e = a ^ b;
+assign f = ~(a & b);
+assign g = ~(a | b);
+assign h = ~(a ^ b );
+endmodule 
+``` 
+**Logic symbol & Truthtable**![Screenshot 2024-12-02 223149](https://github.com/user-attachments/assets/fcae9a02-659a-408f-aa6b-202367addce7)
 
-**RTL realization Output:** 
 
-**RTL**
+**RTL realization Output:** ![Screenshot 2024-12-02 222130](https://github.com/user-attachments/assets/c64405f2-a2d6-46b3-8dce-611e62ad1350)
 
-**Result:**
+
+
+
+**RTL**![Screenshot 2024-12-02 220939](https://github.com/user-attachments/assets/310a1540-0a82-4209-bd4b-ca06469b79bc)
+
+
+**Result:**the truth table of the specified logic gates (AND,NOR, NOT,NAND, XOR, XNOR,) was successfully implemented abd verified using verilog programming in Quarts ||.
 
 
